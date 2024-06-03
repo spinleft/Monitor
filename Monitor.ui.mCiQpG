@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MonitorClass</class>
+ <widget class="QMainWindow" name="MonitorClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1912</width>
+    <height>1057</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Monitor</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <widget class="GaugePanel" name="panelMagTrans16" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>120</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelFast" native="true">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>120</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelMagTrans13" native="true">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>120</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelMagTrans14" native="true">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>120</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelFeshbach" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>120</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelLevitation" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>420</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelQp" native="true">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>420</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelZeemanSlower" native="true">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>420</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelMagTransDown" native="true">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>420</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panelMagTransUp" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>420</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="GaugePanel" name="panel2dPush" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1560</x>
+      <y>420</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="RulerTemp" name="tempMagTrans1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>730</y>
+      <width>100</width>
+      <height>300</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="RulerTemp" name="tempMagTrans2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>730</y>
+      <width>100</width>
+      <height>300</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="RulerTemp" name="tempMagTrans3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>730</y>
+      <width>100</width>
+      <height>300</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="RulerTemp" name="tempMagTransUp" native="true">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>730</y>
+      <width>100</width>
+      <height>300</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1912</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSetup">
+    <property name="title">
+     <string>设置</string>
+    </property>
+    <addaction name="actionLink"/>
+   </widget>
+   <addaction name="menuSetup"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionLink">
+   <property name="text">
+    <string>连接</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>GaugePanel</class>
+   <extends>QWidget</extends>
+   <header>GaugePanel.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RulerTemp</class>
+   <extends>QWidget</extends>
+   <header>RulerTemp.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="Monitor.qrc"/>
+ </resources>
+ <connections/>
+</ui>

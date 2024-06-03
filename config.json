@@ -1,0 +1,90 @@
+{
+    "2D Push/\nZeeman 补偿": {
+        "max_value": 2,
+        "min_value": 0,
+        "threshold": 1
+    },
+    "2D+ MOT": {
+        "threshold": 0.0006
+    },
+    "3D MOT": {
+        "threshold": 1
+    },
+    "FAST": {
+        "max_value": 2,
+        "min_value": 0,
+        "threshold": 1
+    },
+    "FESHBACH": {
+        "max_value": 2,
+        "min_value": 0,
+        "threshold": 1.6
+    },
+    "LEVITATION": {
+        "max_value": 1,
+        "min_value": 0,
+        "threshold": 0.4
+    },
+    "QP": {
+        "max_value": 2,
+        "min_value": 0,
+        "threshold": 1.6
+    },
+    "Science Cell": {
+        "threshold": 2.5e-11
+    },
+    "Zeeman Slower": {
+        "threshold": 2e-10
+    },
+    "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=d84c8c27-39e3-40cf-a854-dd93d084f63d",
+    "塞曼减速": {
+        "max_value": 2,
+        "min_value": 0,
+        "threshold": 0.4
+    },
+    "磁传输 上": {
+        "max_value": 10,
+        "min_value": 0,
+        "threshold": 5
+    },
+    "磁传输 上 水温": {
+        "max_value": 30,
+        "min_value": 20,
+        "threshold": 25
+    },
+    "磁传输 下": {
+        "max_value": 10,
+        "min_value": 0,
+        "threshold": 0
+    },
+    "磁传输13号线圈": {
+        "max_value": 2,
+        "min_value": 0,
+        "threshold": 0.9
+    },
+    "磁传输14号线圈": {
+        "max_value": 1,
+        "min_value": 0,
+        "threshold": 0.5
+    },
+    "磁传输16号线圈": {
+        "max_value": 1,
+        "min_value": 0,
+        "threshold": 0.4
+    },
+    "磁传输1号线圈": {
+        "max_value": 40,
+        "min_value": 10,
+        "threshold": 30
+    },
+    "磁传输2号线圈": {
+        "max_value": 40,
+        "min_value": 10,
+        "threshold": 22
+    },
+    "磁传输3号线圈": {
+        "max_value": 40,
+        "min_value": 10,
+        "threshold": 22
+    }
+}
